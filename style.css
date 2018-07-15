@@ -1,0 +1,53 @@
+body {
+    background-color: gainsboro
+}
+
+.navbar-brand {
+    background-color: lightseagreen
+}
+
+.nav-color {
+    color: white;
+    font-family: "Georgia";
+    font-weight: bold
+}
+
+@media (max-width: 768px) {
+    #nav {
+        background-color: lightseagreen
+    }
+}
+
+h1, h2, h4 {
+    color: lightseagreen;
+    font-family: "Georgia";
+    font-weight: bold
+}
+
+h4 {
+    text-align: center
+}
+
+.centered {
+    margin: auto
+}
+
+.selected {
+    outline: 2px solid lightseagreen
+}
+
+#bottom_bar {
+    background-color: dimgray;
+    border-top: 5px solid lightseagreen
+}
+
+.home {
+    position: fixed;
+    bottom: 0px;
+    width: 100%
+}
+
+h6 {
+    color: white;
+    text-align: center
+}
